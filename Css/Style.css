@@ -369,3 +369,84 @@
             width: 1.5rem;
             height: 1.5rem;
         }
+
+ /* Responsive Styles */
+        @media (min-width: 640px) {
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .hero-container {
+                padding: 3rem;
+            }
+            
+            .featured-container {
+                padding: 3rem;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .mobile-menu-btn {
+                display: none;
+            }
+            
+            .nav-links {
+                display: flex;
+                align-items: center;
+            }
+            
+            .hero-container {
+                flex-direction: row;
+                align-items: center;
+                padding: 4rem;
+            }
+            
+            .hero-content {
+                text-align: left;
+                margin-bottom: 0;
+                margin-right: 2rem;
+                flex: 1;
+            }
+            
+            .hero-text {
+                margin-left: 0;
+                margin-right: 0;
+            }
+            
+            .featured-container {
+                flex-direction: row;
+                align-items: center;
+                padding: 4rem;
+            }
+            
+            .featured-image {
+                margin-bottom: 0;
+                margin-right: 2rem;
+                flex: 1;
+            }
+            
+            .featured-content {
+                text-align: left;
+                flex: 1;
+            }
+            
+            .featured-text {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .products-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            nav {
+                padding: 1rem 3rem;
+            }
+            
+            .hero, .brands, .products, .featured {
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+        }
