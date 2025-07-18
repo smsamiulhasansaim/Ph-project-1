@@ -148,20 +148,19 @@
             justify-content: center;
             gap: 2rem;
         }
-        
+
         .brand-logo {
             height: 2.5rem;
             object-fit: contain;
-            filter: grayscale(100%);
+           
+        }
+        
+        .brand-logo:hover {
+             filter: grayscale(100%);
             opacity: 0.7;
             transition: filter 0.3s, opacity 0.3s;
         }
         
-        .brand-logo:hover {
-            filter: grayscale(0%);
-            opacity: 1;
-        }
-
 /* Products Section */
         .products {
             padding: 4rem 1.5rem;
