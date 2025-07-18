@@ -54,3 +54,110 @@
             color: #666;
             cursor: pointer;
         }
+
+/* Hero Section */
+        .hero {
+            padding: 4rem 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        .hero-container {
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .hero-content {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #111;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+        
+        .hero-text {
+            color: #666;
+            font-size: 1.125rem;
+            max-width: 500px;
+            margin: 0 auto 2rem;
+        }
+        
+        .prebook-btn {
+            background-color: #eb3f7d;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .prebook-btn:hover {
+            background-color: #d1366e;
+        }
+        
+        .hero-image-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .hero-image-circle {
+            width: 18rem;
+            height: 18rem;
+            border-radius: 50%;
+            border: 2px solid #f3e8ff;
+            position: absolute;
+        }
+        
+        .hero-image {
+            width: 16rem;
+            height: 16rem;
+            object-fit: contain;
+            position: relative;
+            border-radius: 50%;
+        }
+
+/* Brands Section */
+        .brands {
+            background-color: white;
+            padding: 2rem 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .brands-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .brand-logo {
+            height: 2.5rem;
+            object-fit: contain;
+            filter: grayscale(100%);
+            opacity: 0.7;
+            transition: filter 0.3s, opacity 0.3s;
+        }
+        
+        .brand-logo:hover {
+            filter: grayscale(0%);
+            opacity: 1;
+        }
